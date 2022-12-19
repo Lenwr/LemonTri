@@ -1,0 +1,24 @@
+.cycle-card-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 25px;
+	width: 159px;
+	height: 195px;
+}
+
+.cycle-card-container img {
+	max-height: 100px;
+	max-width: 90%;
+}
+
+.cycle-card-container span {
+	font-weight: 400;
+	padding: 0px 8px;
+	font-size: 14px;
+	color: black;
+	line-height: 21px;
+	text-align: center;
+}

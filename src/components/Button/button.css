@@ -1,0 +1,13 @@
+.button-see-more {
+	margin-top: 20px;
+	padding: 18px 60px;
+	border-radius: 25px;
+	border: none;
+}
+
+.button-see-more span {
+	font-weight: 700;
+	font-size: 18px;
+	color: white;
+	line-height: 26px;
+}

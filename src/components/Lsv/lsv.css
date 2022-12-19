@@ -1,0 +1,52 @@
+.lsv-container {
+    display: flex;
+	justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 21px;
+    background-color: white;
+	margin-top: 35px;
+    border-radius: 25px;
+}
+
+.lsv-title {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	position: relative;
+    width: 100%;
+	position: relative;
+	margin-bottom: 12px;
+}
+
+.lsv-title span {
+	margin-left: 15px;
+}
+
+.lsv-lemon {
+	position: absolute;
+	right: 90px;
+    top: 0;
+}
+
+.lsv-lemon img {
+	position: absolute;
+	top: -45px;
+    right: -115px;
+}
+
+.lsv-title span {
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 30px;
+	color: #A462C4;
+}
+
+.lsv-data {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 18px;
+	color: black;
+	text-align: start;
+	font-family: "Poppins";
+}

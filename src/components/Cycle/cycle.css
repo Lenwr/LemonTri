@@ -1,0 +1,18 @@
+.cycle-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid 5px #DBEB94;
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+	margin-top: 85px;
+	position: relative;
+	transform-origin: center center;
+}
+
+.cycle-card {
+	top: -100px;
+	position: absolute;
+	transform-origin: center 442px;
+}

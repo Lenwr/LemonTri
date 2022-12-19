@@ -1,0 +1,40 @@
+.banned-container {
+	border: 5px solid #E65F5F;
+	border-radius: 25px;
+	padding: 25px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	margin-top: 35px;
+}
+
+.banned-text {
+	position: absolute;
+    top: -24px;
+	display: flex;
+	padding: 0px 10px;
+	align-items: center;
+	background-color: #FFF9E5;
+	width: fit-content;
+	justify-content: center;
+	min-width: 151px;
+}
+
+.banned-text img {
+	width: 39px;
+}
+
+.banned-text span {
+	font-weight: 700;
+	font-size: 26px;
+	margin-left: 6px;
+	line-height: 39px;
+	padding: 0px !important;
+}
+
+.banned-container span {
+	color: #E65F5F;
+	padding: 2px 16px;
+}

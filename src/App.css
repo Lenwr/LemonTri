@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("./assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+html, body, #root {
+    height: 100%;
+    font-family: "Poppins";
+    background-color: #FFF9E5;
+}
+
+a {
+	text-decoration: none;
+}
+
+.app {
+    text-align: center;
+    overflow-y: hidden;
+	min-height: 100vh;
+}
+
+.app-loader {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.app-loader .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    margin-bottom: 20px;
+}
+
+.app-presentation {
+    padding: 24px;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #069B3E;
+    font-family: "Bebas Neue";
+    color: white;
+    font-weight: 300;
+    letter-spacing: .7px;
+    line-height: 22px;
+}
+
+.app-lottie {
+    width: 200px;
+    height: 200px;
+}

@@ -1,0 +1,14 @@
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 20px 0px 10px 0px;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    line-height: 33px;
+    margin-left: 4px;
+}

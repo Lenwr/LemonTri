@@ -1,0 +1,16 @@
+@media (min-height: 300px) and (max-height: 400px) {
+	.landscape {
+		height: 62vh;
+	}
+}
+
+.center {
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+.landscape {
+	margin: auto;
+}

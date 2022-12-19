@@ -1,0 +1,17 @@
+.switch-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.switch-container img {
+	margin-left: 8px;
+}
+
+.react-switch-handle {
+	margin: 5px;
+}
+
+.react-switch-bg {
+	padding: 5px;
+}

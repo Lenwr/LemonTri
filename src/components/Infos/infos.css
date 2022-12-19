@@ -1,0 +1,33 @@
+.info-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.info-container img {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(273px - 32px);
+	height: calc(187px - 16px);
+	border-radius: 25px;
+	background-color: white;
+	padding: 8px 16px;
+}
+
+.info-container .title {
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.info-container .text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}

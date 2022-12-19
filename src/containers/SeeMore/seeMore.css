@@ -1,0 +1,40 @@
+.see-more-container {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	max-width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.see-more-button {
+	margin-bottom: 40px;
+}
+
+.see-more-cycle {
+	margin-top: 110px;
+}
+
+.see-more-hide {
+	position: absolute;
+	background-color: #FFF9E5;
+	top: 256px;
+	width: 159px;
+    height: 195px;
+	border-radius: 25px;
+}
+
+.see-more-hide-1 {
+    left: -95px;
+    transform: rotate(30deg);
+}
+
+.see-more-hide-2 {
+    right: -101px;
+    transform: rotate(-30deg);
+}
+
+
